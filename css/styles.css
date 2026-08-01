@@ -558,6 +558,10 @@ body.lang-ja .hero-headline {
   letter-spacing: 0.06em;
 }
 
+.narrow {
+  max-width: 720px;
+}
+
 /* ============================================
    PRICING (TRUE AI page)
    ============================================ */
