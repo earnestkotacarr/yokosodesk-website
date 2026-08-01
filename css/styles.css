@@ -559,6 +559,43 @@ body.lang-ja .hero-headline {
 }
 
 /* ============================================
+   PRICING (TRUE AI page)
+   ============================================ */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: var(--sp-lg);
+  margin-top: var(--sp-3xl);
+}
+
+.price-figure {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  color: var(--accent-deep);
+  line-height: 1.2;
+  margin-bottom: var(--sp-sm);
+}
+
+.price-figure small {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink-mute);
+}
+
+.badge {
+  align-self: flex-start;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--sage);
+  border: 1px solid oklch(55% 0.052 135 / 0.5);
+  padding: 3px 12px;
+  border-radius: 999px;
+  margin-bottom: var(--sp-sm);
+}
+
+/* ============================================
    PRODUCT DETAIL
    ============================================ */
 .product {
