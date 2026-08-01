@@ -587,6 +587,12 @@ body.lang-ja .hero-headline {
   color: var(--ink-mute);
 }
 
+.price-disclaimer {
+  margin-top: var(--sp-lg);
+  font-size: 0.9rem;
+  color: var(--ink-mute);
+}
+
 .badge {
   align-self: flex-start;
   font-size: 0.78rem;
